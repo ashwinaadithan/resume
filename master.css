@@ -1,143 +1,159 @@
 :root {
-    --blue: #4285F4;
-    --red: #EA4335;
-    --yellow: #FBBC05;
-    --green: #34A853;
+  --blue: #4285f4;
+  --red: #ea4335;
+  --yellow: #fbbc05;
+  --green: #34a853;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
-    margin-top: 20px;
-    width: 650px;
-    color: grey;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  margin-top: 20px;
+  width: 650px;
+  color: grey;
 }
 
 h2 {
-    font-size: 20px;
-    margin: 3px 0px;
+  font-size: 20px;
+  margin: 3px 0px;
 }
 
 h3 {
-    font-size: 18px;
-    margin: 2px 0px;
+  font-size: 18px;
+  margin: 2px 0px;
 }
 
 h4 {
-    font-size: 16px;
-    margin: 1px 0px;
+  font-size: 16px;
+  margin: 1px 0px;
 }
 
 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .head {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.left, .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.languages {
+  font-weight: bold;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .objective {
-    margin-top: 40px;
-    margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .education-title {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .experience-title {
-    color: var(--red);
+  color: var(--red);
 }
 
-.education-content, .experience-content-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.education-content,
+.experience-content-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.education-section, .experience-section, .skills-content, .skills-domain-container, .hobby-content {
-    margin-left: 20px;
-    margin-bottom: 15px;
+.education-section,
+.experience-section,
+.skills-content,
+.skills-domain-container,
+.hobby-content {
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .skills-domain-container {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-.education-grade, .experience-position {
-    font-weight: 700;
+.education-grade,
+.experience-position {
+  font-weight: 700;
 }
 
-.education-school, .experience-company, .education-cgpa {
-    font-weight: 600;
+.education-school,
+.experience-company,
+.education-cgpa {
+  font-weight: 600;
 }
 
 .education-cgpa {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
-.education-duration, .experience-duration {
-    align-self: flex-end;
-    font-weight: 500;
+.education-duration,
+.experience-duration {
+  align-self: flex-end;
+  font-weight: 500;
 }
 
 .experience-duration {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 
 .experience-content-desc {
-    margin-top: 5px;
-    font-size: medium;
+  margin-top: 5px;
+  font-size: medium;
 }
 
-.education-content > .left, .experience-content-head > .left {
-    align-items: flex-start;
+.education-content > .left,
+.experience-content-head > .left {
+  align-items: flex-start;
 }
 
 .skills-title {
-    color: var(--green);
+  color: var(--green);
 }
 
 .hobby-title {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
-.skill, .hobby {
-    display: inline-table;
-    max-width:fit-content;
-    max-height: fit-content;
-    margin: 3px;
-    margin-left: 2px;
-    font-weight: 600;
-    text-align: center;
-    background: #f5f5f5;
-    border-radius: .3rem;
-    min-width: 5rem;
-    padding: .5rem 1rem;
+.skill,
+.hobby {
+  display: inline-table;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 3px;
+  margin-left: 2px;
+  font-weight: 600;
+  text-align: center;
+  background: #f5f5f5;
+  border-radius: 0.3rem;
+  min-width: 5rem;
+  padding: 0.5rem 1rem;
 }
 
 .skills-domain-title {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .skills-sub-domain-container {
-    align-items: center;
-    margin-left: 10px;
-    margin-bottom: 5px;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .skills-sub-domain-title {
-    display: inline-table;
-    color: rgb(156, 155, 155);
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 5px;
+  display: inline-table;
+  color: rgb(156, 155, 155);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
 }
